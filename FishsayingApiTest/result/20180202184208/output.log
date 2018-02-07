@@ -1,0 +1,322 @@
+2018-02-02 18:42:08,753 - root - INFO - ********TEST START********
+2018-02-02 18:42:08,755 - root - INFO - ***********	获取用户列表	***********
+2018-02-02 18:42:08,755 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:08,755 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:08,755 - root - INFO - 第二步设置params:pageSize=20&pageNo=1
+2018-02-02 18:42:08,755 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1
+2018-02-02 18:42:08,755 - root - ERROR - begining
+2018-02-02 18:42:09,086 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 326, 'list': [{'id': 'f9aeae1aad074222a18dbcaf36bef13c', 'createDate': '2018-02-01 11:51:37', 'delFlag': 0, 'role': 0, 'user': {'id': '9960b078e7b14d209d6bdd37ef02c08a', 'remarks': '', 'delFlag': 0, 'userName': 'kakakasi', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-02-01 11:51:37', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'd2346d9bf0ca4dc095999cb4f42d9a15', 'createDate': '2018-02-01 11:49:18', 'delFlag': 0, 'role': 0, 'user': {'id': 'ab81d2cf9a7a4c92832bc0caaa267802', 'remarks': '', 'delFlag': 0, 'userName': 'kakasi123', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-02-01 11:49:18', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': '635d4a4bf4064bf3a05f83b0d4e55ceb', 'createDate': '2018-02-01 11:48:35', 'delFlag': 0, 'role': 0, 'user': {'id': '24ec46aa7e9144519fe4d1f1e39af383', 'remarks': '', 'delFlag': 0, 'userName': 'kakasi', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-02-01 11:48:35', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': '087ddc97355c4dd4a670160519ad32b1', 'createDate': '2018-02-01 11:23:21', 'delFlag': 0, 'role': 0, 'user': {'id': '1c46bfd97ebb42f8a681c1e3ffd553b0', 'remarks': '', 'delFlag': 0, 'userName': 'Sasku1', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-02-01 11:23:21', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'b6738362714f47eabfd69cbdb494ce64', 'createDate': '2018-02-01 11:18:46', 'delFlag': 0, 'role': 0, 'user': {'id': 'd0b780a56c714ca68375c7e27b5ebf56', 'remarks': '', 'delFlag': 0, 'userName': 'Naruto33', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-02-01 11:18:46', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': '76d75d5ebcef4d84b99f13f675d43b5c', 'createDate': '2018-02-01 11:16:38', 'delFlag': 0, 'role': 0, 'user': {'id': '42a758eb2b9644ffb068b594a1c3422b', 'remarks': '', 'delFlag': 0, 'userName': "q'w's456789'x", 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-02-01 11:16:38', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'af6b5d7615c04eef9598e168e85cd49c', 'createDate': '2018-02-01 10:16:38', 'delFlag': 0, 'role': 0, 'user': {'id': 'ac5e0c6f046a4513a6119e5368d95d24', 'remarks': '', 'delFlag': 0, 'userName': 'qwertyui56789', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-02-01 10:16:38', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'e62e18464b254ea5890266fbd8864667', 'createDate': '2018-01-24 15:10:50', 'delFlag': 0, 'role': 1, 'user': {'id': '59ff595e7b0d40e7bdbf108f17931943', 'remarks': '', 'delFlag': 0, 'userName': 'test21341321', 'image': '573a3915bbc8a1aa44e046291993.jpeg', 'lastLogin': '2018-01-24 15:10:50', 'isFreeze': 1, 'verifiedUserType': 0, 'nickName': 'wwww', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/573a3915bbc8a1aa44e046291993.jpeg', 'checked': False}, 'creatorType': 1, 'businessType': 1, 'ccType': 1, 'profit': 100, 'profitDouble': 1.0, 'ceType': 1, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'c4b4f70fbfb94d3794ebb61572ea23e0', 'createDate': '2018-01-24 15:10:04', 'delFlag': 0, 'role': 0, 'user': {'id': '71bd38c16175441b87d2ec3cc92bba3e', 'remarks': '', 'delFlag': 0, 'userName': 'qwer123456789012', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-01-24 15:10:04', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 1, 'profit': 0, 'profitDouble': 0.0, 'ceType': 1, 'type': 0, 'isChecked': False, 'checked': False}, {'id': '16df1974d57b40ef86144100048008c5', 'createDate': '2018-01-24 15:07:39', 'delFlag': 0, 'role': 0, 'user': {'id': '69aad2b6ae3742d1930aa7a876c436a6', 'remarks': '', 'delFlag': 0, 'userName': 'test.//', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-01-24 15:07:39', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 1, 'type': 0, 'isChecked': False, 'checked': False}, {'id': '6d0c9484199f40feb3022d3082023ce2', 'createDate': '2018-01-24 15:05:25', 'delFlag': 0, 'role': 0, 'user': {'id': 'e4c1dc959358482d8d2abb4d7f61e639', 'remarks': '', 'delFlag': 0, 'userName': '123121', 'image': '29b95c6cf1b04c9d9932093c6bd6544f.jpg', 'lastLogin': '2018-02-02 11:21:36', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/29b95c6cf1b04c9d9932093c6bd6544f.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'bdb32731f8ac4b61b90007dc39ebf2b3', 'createDate': '2018-01-24 14:13:26', 'delFlag': 0, 'role': 0, 'user': {'id': '68412402ed6e452baa100d60fed84275', 'remarks': '', 'delFlag': 0, 'userName': 'hgsgfs', 'image': '', 'lastLogin': '2018-01-24 14:13:26', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': '', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'c05edf0dbf734bd3aee8330ae904fc03', 'createDate': '2018-01-24 14:12:59', 'delFlag': 0, 'role': 0, 'user': {'id': 'eb454fa8271a4af3bd7a064682758d1c', 'remarks': '', 'delFlag': 0, 'userName': 'abcdefg1', 'image': '', 'lastLogin': '2018-01-24 14:12:59', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': 'hijklmn', 'isChecked': False, 'imageSrc': '', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': '78f48e864e364f11bdbc4a9df4658878', 'createDate': '2018-01-24 11:44:48', 'delFlag': 0, 'role': 0, 'user': {'id': 'd028adea5bb644c28abe02288780da03', 'remarks': '', 'delFlag': 0, 'userName': 'test012404', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-01-24 11:44:48', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '3424', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': '62d103efd27e4735a65a20e28c2dc471', 'createDate': '2018-01-24 11:44:23', 'delFlag': 0, 'role': 0, 'user': {'id': 'c6b958b835584023860b09c7d6be5f9d', 'remarks': '', 'delFlag': 0, 'userName': 'test012403', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-01-24 11:44:23', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': '9f85f2ff8b964060aba6808f9bfedd72', 'createDate': '2018-01-24 11:43:38', 'delFlag': 0, 'role': 0, 'user': {'id': '9e8d2c31acfa46ae8e303cc9055dcd83', 'remarks': '', 'delFlag': 0, 'userName': 'test012402', 'image': '', 'lastLogin': '2018-01-24 11:43:38', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': '', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'cc81572af93b402e9a301a6172e91cb6', 'createDate': '2018-01-24 11:43:04', 'delFlag': 0, 'role': 1, 'user': {'id': '205c140bb36a479a8002712e4de0cdd0', 'remarks': '', 'delFlag': 0, 'userName': 'test01240', 'image': '29b95c6cf1b04c9d9932093c6bd6544f.jpg', 'lastLogin': '2018-01-24 11:43:04', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': 'bbwrfr', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/29b95c6cf1b04c9d9932093c6bd6544f.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 1, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 1, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'aaed8419cbbb4b6889427519f84b1be3', 'createDate': '2018-01-24 11:36:54', 'delFlag': 0, 'role': 0, 'user': {'id': '64f902deaf25478f975138de4c5c194b', 'remarks': '', 'delFlag': 0, 'userName': 'test012401', 'image': '', 'lastLogin': '2018-01-24 11:36:54', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': '', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'e1daa4c59d60467688f7fd33374b90fe', 'createDate': '2018-01-24 11:23:30', 'delFlag': 0, 'role': 0, 'user': {'id': 'a5dbfc1d62fa4385a18bbce3e1030ba9', 'remarks': '', 'delFlag': 0, 'userName': 'testqweqr', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-02-02 11:22:19', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}, {'id': 'd33ca928ee8d4d178c366bca3dc1f3c7', 'createDate': '2018-01-24 11:09:06', 'delFlag': 0, 'role': 0, 'user': {'id': '2e6ecff1fff744f883a5cb1c6ca4d24c', 'remarks': '', 'delFlag': 0, 'userName': 'qqxxz1233', 'image': '52ff55fa46d44674aae2bf58afaa271e.jpg', 'lastLogin': '2018-01-24 11:09:06', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': 'wwwww', 'isChecked': False, 'imageSrc': 'https://image-cdn.fishsaying.com/52ff55fa46d44674aae2bf58afaa271e.jpg', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'ccType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}]}
+2018-02-02 18:42:09,087 - root - INFO - 响应时间:324.389
+2018-02-02 18:42:09,087 - root - INFO - 期望结果：count
+2018-02-02 18:42:09,092 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:09,093 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:09,093 - root - INFO - ***********	根据昵称查找（有）	***********
+2018-02-02 18:42:09,094 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:09,094 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:09,094 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.userName=测试勿动
+2018-02-02 18:42:09,094 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.userName=测试勿动
+2018-02-02 18:42:09,094 - root - ERROR - begining
+2018-02-02 18:42:09,437 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:09,438 - root - INFO - 响应时间:333.56
+2018-02-02 18:42:09,438 - root - INFO - 期望结果：list
+2018-02-02 18:42:09,445 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:09,445 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:09,447 - root - INFO - ***********	根据手机号查找（无）	***********
+2018-02-02 18:42:09,447 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:09,447 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:09,448 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.mobile=19218217217
+2018-02-02 18:42:09,448 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.mobile=19218217217
+2018-02-02 18:42:09,448 - root - ERROR - begining
+2018-02-02 18:42:09,720 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 0}
+2018-02-02 18:42:09,720 - root - INFO - 响应时间:265.415
+2018-02-02 18:42:09,720 - root - INFO - 期望结果：{'count': 0}
+2018-02-02 18:42:09,724 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:09,724 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:09,725 - root - INFO - ***********	根据手机号模糊查找（有）	***********
+2018-02-02 18:42:09,725 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:09,726 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:09,726 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.mobile=1921
+2018-02-02 18:42:09,726 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.mobile=1921
+2018-02-02 18:42:09,726 - root - ERROR - begining
+2018-02-02 18:42:10,120 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 1, 'list': [{'id': '50839b129f3a4a739e1ff58f7bb79a32', 'createDate': '2017-12-15 09:35:44', 'delFlag': 0, 'role': 0, 'user': {'id': '35075ef9ac6f4899a9990db3cdab5b97', 'delFlag': 0, 'userName': "test_don't_move", 'lastLogin': '2017-12-15 09:35:44', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '测试勿动', 'isChecked': False, 'imageSrc': '', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}]}
+2018-02-02 18:42:10,120 - root - INFO - 响应时间:384.13
+2018-02-02 18:42:10,121 - root - INFO - 期望结果：list
+2018-02-02 18:42:10,127 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:10,128 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:10,129 - root - INFO - ***********	根据手机号模糊查找（无）	***********
+2018-02-02 18:42:10,129 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:10,129 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:10,130 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.mobile=918217216
+2018-02-02 18:42:10,130 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.mobile=918217216
+2018-02-02 18:42:10,131 - root - ERROR - begining
+2018-02-02 18:42:10,406 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 0}
+2018-02-02 18:42:10,406 - root - INFO - 响应时间:261.278
+2018-02-02 18:42:10,406 - root - INFO - 期望结果：{'count': 0}
+2018-02-02 18:42:10,410 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:10,410 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:10,411 - root - INFO - ***********	根据邮箱查找（有）	***********
+2018-02-02 18:42:10,411 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:10,411 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:10,411 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.email=apitest@cmk.com
+2018-02-02 18:42:10,412 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.email=apitest@cmk.com
+2018-02-02 18:42:10,412 - root - ERROR - begining
+2018-02-02 18:42:10,656 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 1, 'list': [{'id': '50839b129f3a4a739e1ff58f7bb79a32', 'createDate': '2017-12-15 09:35:44', 'delFlag': 0, 'role': 0, 'user': {'id': '35075ef9ac6f4899a9990db3cdab5b97', 'delFlag': 0, 'userName': "test_don't_move", 'lastLogin': '2017-12-15 09:35:44', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '测试勿动', 'isChecked': False, 'imageSrc': '', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}]}
+2018-02-02 18:42:10,656 - root - INFO - 响应时间:238.766
+2018-02-02 18:42:10,656 - root - INFO - 期望结果：list
+2018-02-02 18:42:10,658 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:10,658 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:10,659 - root - INFO - ***********	根据邮箱查找（无）	***********
+2018-02-02 18:42:10,659 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:10,659 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:10,659 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.email=apitest@cmkl.com
+2018-02-02 18:42:10,659 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.email=apitest@cmkl.com
+2018-02-02 18:42:10,659 - root - ERROR - begining
+2018-02-02 18:42:10,893 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 0}
+2018-02-02 18:42:10,893 - root - INFO - 响应时间:228.191
+2018-02-02 18:42:10,893 - root - INFO - 期望结果：{'count': 0}
+2018-02-02 18:42:10,895 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:10,896 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:10,896 - root - INFO - ***********	根据邮箱模糊查找（有）	***********
+2018-02-02 18:42:10,897 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:10,897 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:10,897 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.email=apitest
+2018-02-02 18:42:10,897 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.email=apitest
+2018-02-02 18:42:10,897 - root - ERROR - begining
+2018-02-02 18:42:11,139 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 1, 'list': [{'id': '50839b129f3a4a739e1ff58f7bb79a32', 'createDate': '2017-12-15 09:35:44', 'delFlag': 0, 'role': 0, 'user': {'id': '35075ef9ac6f4899a9990db3cdab5b97', 'delFlag': 0, 'userName': "test_don't_move", 'lastLogin': '2017-12-15 09:35:44', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '测试勿动', 'isChecked': False, 'imageSrc': '', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}]}
+2018-02-02 18:42:11,140 - root - INFO - 响应时间:233.666
+2018-02-02 18:42:11,140 - root - INFO - 期望结果：list
+2018-02-02 18:42:11,145 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:11,146 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:11,146 - root - INFO - ***********	根据邮箱模糊查找（无）	***********
+2018-02-02 18:42:11,147 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:11,147 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:11,148 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.email=apitest@cmkl.com
+2018-02-02 18:42:11,148 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.email=apitest@cmkl.com
+2018-02-02 18:42:11,149 - root - ERROR - begining
+2018-02-02 18:42:11,388 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 0}
+2018-02-02 18:42:11,389 - root - INFO - 响应时间:231.137
+2018-02-02 18:42:11,389 - root - INFO - 期望结果：{'count': 0}
+2018-02-02 18:42:11,392 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:11,393 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:11,393 - root - INFO - ***********	创建新用户（普通用户、无专家人认证、启用状态）	***********
+2018-02-02 18:42:11,393 - root - INFO - https://ams-test1.fishsaying.com/a/v2/app/app-user
+2018-02-02 18:42:11,394 - root - INFO - 第一步：设置url  /a/v2/app/app-user
+2018-02-02 18:42:11,394 - root - INFO - 第二步设置params:{'image': '', 'user_name': 'Autotest1517568131394', 'user_pwd': '123456', 'email': '', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:11,394 - root - INFO - 第三步：设置发送请求的参数:{'image': '', 'user_name': 'Autotest1517568131394', 'user_pwd': '123456', 'email': '', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:11,630 - root - INFO - 第四步：发送请求->请求方法：POST	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:11,630 - root - INFO - 响应时间:227.128
+2018-02-02 18:42:11,631 - root - INFO - 期望结果：
+2018-02-02 18:42:11,636 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:11,637 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:11,638 - root - INFO - ***********	创建新用户（账号重复，普通用户、无专家人认证、启用状态）	***********
+2018-02-02 18:42:11,638 - root - INFO - https://ams-test1.fishsaying.com/a/v2/app/app-user
+2018-02-02 18:42:11,639 - root - INFO - 第一步：设置url  /a/v2/app/app-user
+2018-02-02 18:42:11,639 - root - INFO - 第二步设置params:{'image': '', 'user_name': "test_don't_move", 'user_pwd': '123456', 'email': '', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:11,640 - root - INFO - 第三步：设置发送请求的参数:{'image': '', 'user_name': "test_don't_move", 'user_pwd': '123456', 'email': '', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:11,887 - root - INFO - 第四步：发送请求->请求方法：POST	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:11,888 - root - INFO - 响应时间:236.783
+2018-02-02 18:42:11,888 - root - INFO - 期望结果：
+2018-02-02 18:42:11,893 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:11,894 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:11,895 - root - INFO - ***********	创建新用户（手机号重复，普通用户、无专家人认证、启用状态）	***********
+2018-02-02 18:42:11,896 - root - INFO - https://ams-test1.fishsaying.com/a/v2/app/app-user
+2018-02-02 18:42:11,896 - root - INFO - 第一步：设置url  /a/v2/app/app-user
+2018-02-02 18:42:11,897 - root - INFO - 第二步设置params:{'image': '', 'user_name': 'Autotest1517568131896', 'user_pwd': '123456', 'email': '', 'mobile': '19218217216', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:11,898 - root - INFO - 第三步：设置发送请求的参数:{'image': '', 'user_name': 'Autotest1517568131896', 'user_pwd': '123456', 'email': '', 'mobile': '19218217216', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:12,170 - root - INFO - 第四步：发送请求->请求方法：POST	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:12,171 - root - INFO - 响应时间:259.836
+2018-02-02 18:42:12,171 - root - INFO - 期望结果：
+2018-02-02 18:42:12,177 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:12,178 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:12,179 - root - INFO - ***********	根据昵称查找（无）	***********
+2018-02-02 18:42:12,180 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:12,180 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:12,180 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.userName=测试请勿动
+2018-02-02 18:42:12,181 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.userName=测试请勿动
+2018-02-02 18:42:12,181 - root - ERROR - begining
+2018-02-02 18:42:12,468 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:12,469 - root - INFO - 响应时间:275.886
+2018-02-02 18:42:12,469 - root - INFO - 期望结果：{'count': 0}
+2018-02-02 18:42:12,476 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:12,477 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:12,478 - root - INFO - ***********	创建新用户（邮箱重复，普通用户、无专家人认证、启用状态）	***********
+2018-02-02 18:42:12,479 - root - INFO - https://ams-test1.fishsaying.com/a/v2/app/app-user
+2018-02-02 18:42:12,479 - root - INFO - 第一步：设置url  /a/v2/app/app-user
+2018-02-02 18:42:12,480 - root - INFO - 第二步设置params:{'image': '', 'user_name': 'Autotest1517568132479', 'user_pwd': '123456', 'email': 'apitest@cmk.com', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:12,480 - root - INFO - 第三步：设置发送请求的参数:{'image': '', 'user_name': 'Autotest1517568132479', 'user_pwd': '123456', 'email': 'apitest@cmk.com', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:12,730 - root - INFO - 第四步：发送请求->请求方法：POST	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:12,731 - root - INFO - 响应时间:238.054
+2018-02-02 18:42:12,731 - root - INFO - 期望结果：
+2018-02-02 18:42:12,738 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:12,739 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:12,741 - root - INFO - ***********	创建新用户（账号为空，普通用户、无专家人认证、启用状态）	***********
+2018-02-02 18:42:12,741 - root - INFO - https://ams-test1.fishsaying.com/a/v2/app/app-user
+2018-02-02 18:42:12,742 - root - INFO - 第一步：设置url  /a/v2/app/app-user
+2018-02-02 18:42:12,743 - root - INFO - 第二步设置params:{'image': '', 'user_name': '', 'user_pwd': '123456', 'email': '', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:12,743 - root - INFO - 第三步：设置发送请求的参数:{'image': '', 'user_name': '', 'user_pwd': '123456', 'email': '', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:13,095 - root - INFO - 第四步：发送请求->请求方法：POST	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:13,095 - root - INFO - 响应时间:344.205
+2018-02-02 18:42:13,096 - root - INFO - 期望结果：
+2018-02-02 18:42:13,101 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:13,101 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:13,102 - root - INFO - ***********	创建新用户（密码为空，普通用户、无专家人认证、启用状态）	***********
+2018-02-02 18:42:13,103 - root - INFO - https://ams-test1.fishsaying.com/a/v2/app/app-user
+2018-02-02 18:42:13,103 - root - INFO - 第一步：设置url  /a/v2/app/app-user
+2018-02-02 18:42:13,104 - root - INFO - 第二步设置params:{'image': '', 'user_name': 'Autotest1517568133103', 'user_pwd': '', 'email': '', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:13,104 - root - INFO - 第三步：设置发送请求的参数:{'image': '', 'user_name': 'Autotest1517568133103', 'user_pwd': '', 'email': '', 'mobile': '', 'creatorType': 1, 'role': 0, 'businessType': 0, 'ceType': 0, 'ccType': 0, 'verified_user_type': 0, 'verified_content': '', 'nick_name': '', 'sex': '', 'provinceKey': None, 'cityKey': None, 'districtKey': None, 'birthday': None, 'remarks': '', 'is_freeze': 0}
+2018-02-02 18:42:13,367 - root - INFO - 第四步：发送请求->请求方法：POST	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:13,367 - root - INFO - 响应时间:257.714
+2018-02-02 18:42:13,367 - root - INFO - 期望结果：
+2018-02-02 18:42:13,369 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:13,369 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:13,370 - root - INFO - ***********	编辑（获取详情,存在的id）	***********
+2018-02-02 18:42:13,370 - root - INFO - https://ams-test1.fishsaying.com/a/v2/app/app-user/user/35075ef9ac6f4899a9990db3cdab5b97
+2018-02-02 18:42:13,370 - root - INFO - 第一步：设置url  /a/v2/app/app-user/user/35075ef9ac6f4899a9990db3cdab5b97
+2018-02-02 18:42:13,370 - root - INFO - 第二步设置params:
+2018-02-02 18:42:13,370 - root - INFO - 第三步：设置发送请求的参数:
+2018-02-02 18:42:13,370 - root - ERROR - begining
+2018-02-02 18:42:13,935 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'id': '35075ef9ac6f4899a9990db3cdab5b97', 'short_id': '', 'user_name': "test_don't_move", 'user_pwd': 'e10adc3949ba59abbe56e057f20f883e', 'image': '', 'regist_type': '', 'invite_id': '', 'user_type': '', 'is_verified': '', 'verified_type': '', 'verified_content': '', 'is_recommend': '', 'recommend_content': '', 'is_creator': '', 'locale': '', 'email': 'apitest@cmk.com', 'mobile': '19218217216', 'device_id': '', 'device_flag': '', 'regist_date': '', 'last_login': 1513301744000, 'create_by': '', 'create_date': 1513301744000, 'update_by': '', 'update_date': 1513301744000, 'remarks': '', 'del_flag': 0, 'is_freeze': 0, 'nick_name': '测试勿动', 'verified_user_type': 0, 'description': '', 'mobile_prefix': '86', 'sex': 1, 'birthday': '', 'area_id': '', 'role': 0, 'businessType': 0, 'creatorType': 1, 'ceType': 0, 'ccType': '', 'userRole': [{'id': 288, 'user_id': '35075ef9ac6f4899a9990db3cdab5b97', 'service_id': 104, 'name': '云导游设计师', 'alias': 'creator'}]}
+2018-02-02 18:42:13,935 - root - INFO - 响应时间:558.344
+2018-02-02 18:42:13,935 - root - INFO - 期望结果：{"id":"35075ef9ac6f4899a9990db3cdab5b97"}
+2018-02-02 18:42:13,940 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:13,941 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:13,941 - root - INFO - ***********	编辑（获取详情,不存在的id）	***********
+2018-02-02 18:42:13,942 - root - INFO - https://ams-test1.fishsaying.com/a/v2/app/app-user/user/35075ef9ac6f4899a9990db3cdab5b99
+2018-02-02 18:42:13,942 - root - INFO - 第一步：设置url  /a/v2/app/app-user/user/35075ef9ac6f4899a9990db3cdab5b99
+2018-02-02 18:42:13,943 - root - INFO - 第二步设置params:
+2018-02-02 18:42:13,943 - root - INFO - 第三步：设置发送请求的参数:
+2018-02-02 18:42:13,943 - root - ERROR - begining
+2018-02-02 18:42:14,159 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:14,160 - root - INFO - 响应时间:210.608
+2018-02-02 18:42:14,160 - root - INFO - 期望结果：
+2018-02-02 18:42:14,162 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:14,162 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:14,162 - root - INFO - ***********	根据昵称模糊查找（有）	***********
+2018-02-02 18:42:14,163 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:14,163 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:14,163 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.userName=勿动
+2018-02-02 18:42:14,163 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.userName=勿动
+2018-02-02 18:42:14,163 - root - ERROR - begining
+2018-02-02 18:42:14,446 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:14,447 - root - INFO - 响应时间:278.198
+2018-02-02 18:42:14,447 - root - INFO - 期望结果：list
+2018-02-02 18:42:14,450 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:14,450 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:14,451 - root - INFO - ***********	根据昵称模糊查找（无）	***********
+2018-02-02 18:42:14,451 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:14,451 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:14,452 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.userName=请勿动
+2018-02-02 18:42:14,452 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.userName=请勿动
+2018-02-02 18:42:14,452 - root - ERROR - begining
+2018-02-02 18:42:14,701 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'errorMessage': '服务器内部错误', 'errorCode': 500}
+2018-02-02 18:42:14,701 - root - INFO - 响应时间:241.404
+2018-02-02 18:42:14,701 - root - INFO - 期望结果：{'count': 0}
+2018-02-02 18:42:14,704 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:14,704 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:14,705 - root - INFO - ***********	根据账号查找（有）	***********
+2018-02-02 18:42:14,706 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:14,706 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:14,706 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.nickName=test_don't_move
+2018-02-02 18:42:14,706 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.nickName=test_don't_move
+2018-02-02 18:42:14,706 - root - ERROR - begining
+2018-02-02 18:42:14,975 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 0}
+2018-02-02 18:42:14,975 - root - INFO - 响应时间:262.645
+2018-02-02 18:42:14,976 - root - INFO - 期望结果：list
+2018-02-02 18:42:14,978 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:14,978 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:14,979 - root - INFO - ***********	根据账号查找（无）	***********
+2018-02-02 18:42:14,979 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:14,980 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:14,980 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.nickName=test_don'tmove
+2018-02-02 18:42:14,980 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.nickName=test_don'tmove
+2018-02-02 18:42:14,980 - root - ERROR - begining
+2018-02-02 18:42:15,313 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 0}
+2018-02-02 18:42:15,314 - root - INFO - 响应时间:328.182
+2018-02-02 18:42:15,314 - root - INFO - 期望结果：{'count': 0}
+2018-02-02 18:42:15,316 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:15,316 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:15,316 - root - INFO - ***********	根据账号模糊查找（有）	***********
+2018-02-02 18:42:15,316 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:15,316 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:15,316 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.nickName=move
+2018-02-02 18:42:15,317 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.nickName=move
+2018-02-02 18:42:15,317 - root - ERROR - begining
+2018-02-02 18:42:15,550 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 0}
+2018-02-02 18:42:15,551 - root - INFO - 响应时间:228.861
+2018-02-02 18:42:15,551 - root - INFO - 期望结果：list
+2018-02-02 18:42:15,553 - root - INFO - 第五步：检查结果fail
+2018-02-02 18:42:15,553 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:15,553 - root - INFO - ***********	根据账号模糊查找（无）	***********
+2018-02-02 18:42:15,553 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:15,553 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:15,554 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.nickName=don'tmove
+2018-02-02 18:42:15,554 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.nickName=don'tmove
+2018-02-02 18:42:15,554 - root - ERROR - begining
+2018-02-02 18:42:15,793 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 0}
+2018-02-02 18:42:15,793 - root - INFO - 响应时间:235.677
+2018-02-02 18:42:15,794 - root - INFO - 期望结果：{'count': 0}
+2018-02-02 18:42:15,796 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:15,796 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:15,796 - root - INFO - ***********	根据手机号查找（有）	***********
+2018-02-02 18:42:15,796 - root - INFO - https://ams-test1.fishsaying.com/a/cp/user-role
+2018-02-02 18:42:15,796 - root - INFO - 第一步：设置url  /a/cp/user-role
+2018-02-02 18:42:15,797 - root - INFO - 第二步设置params:pageSize=20&pageNo=1&user.mobile=19218217216
+2018-02-02 18:42:15,797 - root - INFO - 第三步：设置发送请求的参数:pageSize=20&pageNo=1&user.mobile=19218217216
+2018-02-02 18:42:15,797 - root - ERROR - begining
+2018-02-02 18:42:16,056 - root - INFO - 第四步：发送请求->请求方法：GET	 返回结果:{'count': 1, 'list': [{'id': '50839b129f3a4a739e1ff58f7bb79a32', 'createDate': '2017-12-15 09:35:44', 'delFlag': 0, 'role': 0, 'user': {'id': '35075ef9ac6f4899a9990db3cdab5b97', 'delFlag': 0, 'userName': "test_don't_move", 'lastLogin': '2017-12-15 09:35:44', 'isFreeze': 0, 'verifiedUserType': 0, 'nickName': '测试勿动', 'isChecked': False, 'imageSrc': '', 'checked': False}, 'creatorType': 1, 'businessType': 0, 'profit': 0, 'profitDouble': 0.0, 'ceType': 0, 'type': 0, 'isChecked': False, 'checked': False}]}
+2018-02-02 18:42:16,057 - root - INFO - 响应时间:253.361
+2018-02-02 18:42:16,057 - root - INFO - 期望结果：list
+2018-02-02 18:42:16,067 - root - INFO - 第五步：检查结果pass
+2018-02-02 18:42:16,067 - root - INFO - 测试结束，输出log完结
+
+
+2018-02-02 18:42:16,456 - root - INFO - *********TEST END*********
+2018-02-02 18:42:18,715 - root - INFO - The test report has send to developer by email.
