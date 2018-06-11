@@ -23,10 +23,12 @@ def button(driver):
 
 
 def login(driver, username, password):
-    #username(driver).clear()
-    #password(driver).clear()
-    driver.find_element_by_class_name("fs-login-name").send_keys(username)
-    driver.find_element_by_class_name("fs-login-password").send_keys(password)
+    # username(driver).clear()
+    # password(driver).clear()
+    driver.find_element_by_xpath("//*[@id=\"container\"]/div/div/div[1]/input").send_keys(username)
+    driver.find_element_by_xpath("//*[@id=\"container\"]/div/div/div[2]/input").send_keys(password)
     driver.find_element_by_xpath("//*[@id=\"container\"]/div/div/div[5]/button").click()
     time.sleep(1)
     return driver
+
+

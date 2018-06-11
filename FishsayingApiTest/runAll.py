@@ -69,6 +69,7 @@ class AllTest:
         """
         try:
             suit = self.set_case_suite()
+
             if suit is not None:
                 logger.info("********TEST START********")
                 fp = open(resultPath, 'wb')
